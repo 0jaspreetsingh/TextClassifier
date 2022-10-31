@@ -5,7 +5,6 @@ class NewsGroupDataset(Dataset):
 
     # subset = 'train' , 'test' , all 
     def __init__(self, subset="all"):
-        ## removing headers, footers and quotes to avoid overfitting
         self.newsgroups = fetch_20newsgroups(subset=subset)
         self.target_names = self.newsgroups.target_names
 
