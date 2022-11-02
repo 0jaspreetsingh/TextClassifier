@@ -2,7 +2,7 @@
 
 ## Classification model to specify group of a given news
 
-https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
+[Newsgroups text dataset](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html)
 
 ### Libraries used:
 1. `pytorch`
